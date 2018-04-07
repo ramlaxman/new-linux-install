@@ -2,7 +2,7 @@
 
 `su -`
 
-`wget --recursive https://github.com/ramlaxman/new-linux-install/`
+`wget --recursive  --no-parent https://github.com/ramlaxman/new-linux-install/`
 
 `chmod +x new-linux-install/.sh`
 

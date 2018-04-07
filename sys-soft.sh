@@ -1,4 +1,4 @@
 #!/usr/bin/sh
 echo Enter software names:
-read $softname
-yum install $softname -y --skip-broken
+read softname
+dnf install $softname -y --skip-broken

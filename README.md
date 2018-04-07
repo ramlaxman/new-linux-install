@@ -2,9 +2,9 @@
 
 `su -`
 
-`wget --recursive  --no-parent https://github.com/ramlaxman/new-linux-install/`
+`git clone https://github.com/ramlaxman/new-linux-install/`
 
-`chmod +x new-linux-install/.sh`
+`chmod -R 755 new-linux-install`
 
 `cd new-linux-install`
 

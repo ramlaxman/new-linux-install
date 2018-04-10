@@ -1,4 +1,4 @@
 #!/usr/bin/sh
-echo Enter software names:
+echo "Enter software names:"
 read softname
 dnf install $softname -y

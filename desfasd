@@ -1,0 +1,16 @@
+#!/usr/bin/sh
+for server in $(cat server.txt)
+do
+  scp demo.txt "$server":/root/
+done
+
+#!/usr/bin/sh
+for server in `cat /root/server.txt`
+	do host $server
+	for server in $(cat server.txt)
+	do
+		scp sys-soft.sh "$server":/root/
+	done
+	ssh root@$server -i /home/student/.ssh/id_rsa $1
+	echo "============================"
+done
